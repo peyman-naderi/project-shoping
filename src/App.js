@@ -1,11 +1,16 @@
-
 import './App.css';
 import './index.css'
+import Header from './Components/Header';
+import React from 'react';
+
 function App() {
   return (
-    <div>
-      <p className='text-red-800 text-center'>peymna</p>
+    <>
+    <div className='w-full h-2 bg-blue-700'>
+      
     </div>
+    <Header/>
+    </>
   );
 }
 
