@@ -4,7 +4,7 @@ import React from "react";
 const Header = () => {
     return(
       <>
-        <div className="flex justify-between items-center lg:gap-x- w-[86%] h-42  mx-auto mt-5">
+        <div className="flex justify-between items-center lg:gap-x- w-[82%] h-42  mx-auto mt-5">
             {/* search input */}
             <div className="flex items-center justify-center gap-x-5">
               <div className="flex lg:none gap-x-5 md:gap-x-10 items-center justify-center">
@@ -14,7 +14,7 @@ const Header = () => {
             <img src="/img/logo.png" alt="logo-web" className=" lg:w-32 w-28 h-24 lg:h-28"/>
               </div>
                 <div>
-                    <form className="hidden lg:flex lg:gap-x-3 justify-center items-center  lg:w-[340px] 2xl:w-[505px] h-11 rounded-b-2xl border-2 border-white border-b-blue-700">
+                    <form className="hidden lg:flex lg:gap-x-3 justify-center items-center  lg:w-[300px] 2xl:w-[505px] h-11 rounded-b-2xl border-2 border-white border-b-blue-700">
                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="mr-2 w-6 h-6">
                         <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" /> 
                         </svg>
