@@ -11,7 +11,7 @@ const Products = () => {
             <div className="w-[25%]">
                 <img src="/img/lamp.png" alt="" />
             </div>
-            <div className="w-[50%]">
+            <div className="w-[50%] mt-1">
                 <img src="/img/coler.png" alt="" />
             </div>
         </div>

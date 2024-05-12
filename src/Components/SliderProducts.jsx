@@ -1,3 +1,4 @@
+import CollectionProducts from './CollectionProducts';
 import React, { useRef, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -367,11 +368,9 @@ export default function SliderProducts() {
             <p className='sm:text-base ml-8 text-xs flex sm:ml-8 justify-end mt-12 pb-6'>۱۹۰۰۰۰۰۰ تومان</p>
             </div>
         </div>
-        
-        
-        
       </div>
 
+      <CollectionProducts/>
     </>
   );
 }
