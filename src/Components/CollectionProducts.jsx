@@ -1,4 +1,6 @@
 import React from "react";
+import Photo from "./Photo";
+
 
 const CollectionProducts = () => {
     return(
@@ -37,6 +39,8 @@ const CollectionProducts = () => {
                 </div>
             </div>
         </div>
+
+        <Photo/>
         </>
     )
 }
