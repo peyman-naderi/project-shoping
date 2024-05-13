@@ -11,7 +11,7 @@ const SliderProduct2 = () => {
         <>
                 <div className=' hidden lg:flex w-[81%] border-t-2 pt-4 pb-4 border-b-2 border-r-2 rounded-2xl border-solid border-black  mx-auto mt-24'>
 
-<div className='w-[15%] relative top-4 gap-y-2 right-4'>
+<div className='w-[15%] relative top-4 gap-y-2 right-1'>
     <p className='font-bold text-3xl'>جدیدترین</p>
     <p className='font-bold text-3xl '>کالاها</p>
         <div className='top- -right-14 relative'>

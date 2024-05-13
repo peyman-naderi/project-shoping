@@ -4,14 +4,16 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
 
+import SliderAll from './SliderAll';
+
 const SliderProduct3 = () => {
     return(
         <>
                 <div className=' hidden lg:flex w-[81%] border-t-2 pt-4 pb-4 border-b-2 border-r-2 rounded-2xl border-solid border-blue-900 mx-auto mt-24'>
 
-<div className='w-[15%] relative top-4 gap-y-2 right-4'>
-    <p className='font-bold text-3xl'>پــــرفــــــروش</p>
-    <p className='font-bold text-3xl '> ترین کالاها  </p>
+<div className='w-[15%] relative top-4 gap-y-2 right-1'>
+    <p className='font-bold text-2xl'>پــــرفــــــروش</p>
+    <p className='font-bold text-2xl '> ترین کالاها  </p>
         <div className='top- -right-12 relative'>
             <img src="/img/zir.png" alt="" />
         </div>
@@ -370,6 +372,14 @@ className="mySwiper  ">
 </div>
 
 
+<div>
+    <img src="/img/coler.png" className='mt-4 mb-4 lg:hidden mx-auto w-[88%]' alt="" />
+    <img src="/img/pril.png" className='mt-4 mb-4 lg:hidden mx-auto w-[88%]' alt="" />
+</div>
+
+
+
+<SliderAll/>
         </>
     )
 }
