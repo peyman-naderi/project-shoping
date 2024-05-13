@@ -9,7 +9,7 @@ import SliderAll from './SliderAll';
 const SliderProduct3 = () => {
     return(
         <>
-                <div className=' hidden lg:flex w-[81%] border-t-2 pt-4 pb-4 border-b-2 border-r-2 rounded-2xl border-solid border-blue-900 mx-auto mt-24'>
+                <div className=' hidden lg:flex w-[82%] border-t-2 pt-4 pb-4 border-b-2 border-r-2 rounded-2xl border-solid border-blue-900 mx-auto mt-24'>
 
 <div className='w-[15%] relative top-4 gap-y-2 right-1'>
     <p className='font-bold text-2xl'>پــــرفــــــروش</p>

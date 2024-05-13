@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
-
+import Brand from './Brand';
 
 const SliderAll = () => {
     return(
@@ -359,9 +359,10 @@ const SliderAll = () => {
           <p className='sm:text-base ml-8 text-xs flex sm:ml-8 justify-end mt-12 pb-6'>۱۹۰۰۰۰۰۰ تومان</p>
           </div>
       </div></div>
+      </div>
 
-    </div>
- 
+
+      <Brand />
         </>
     )
 
