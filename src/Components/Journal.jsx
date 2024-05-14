@@ -1,4 +1,10 @@
-import React from "react"
+import React, { useRef, useState } from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+
+import { Keyboard, Pagination, Navigation } from 'swiper/modules';
 
 const Journal = () => {
     return(
@@ -41,6 +47,57 @@ const Journal = () => {
                 </p>
             </div>
             </div>
+        </div>
+
+        <div className='lg:hidden flex w-[98%] mx-auto'>
+
+      <Swiper
+        slidesPerView={1}
+        spaceBetween={30}
+        keyboard={{
+          enabled: true,
+        }}
+        pagination={{
+          clickable: true,
+        }}
+        navigation={true}
+        modules={[Keyboard, Pagination, Navigation]}
+        className="mySwiper"
+      >
+        <SwiperSlide>
+        <div className="w-[98%]">
+                <img src="/img/rp1.png" alt="" className=" w-[90%] mx-auto h-96"/>
+                <h6 className="font-bold text-center text-base leading-[31px]">
+                رد مجیک 8S پرو، آیفون و گلکسی را <br /> به خاک‌و‌خون می‌کشد
+                </h6>
+                <p className="mt-7 text-gray-500 text-base font-medium leading-[26px] text-center">
+                رد مجیک 8S پرو که هفته‌ی آینده رونمایی می‌شود، باتری ۶٬۰۰۰ میلی‌آمپرساعتی،‌ تراشه‌ی پرچمدار و ۲۴ گیگابایت رم خواهد داشت.
+                </p>
+            </div>
+        </SwiperSlide>
+        <SwiperSlide>
+        <div className="w-[98%]">
+                <img src="/img/rp2.png" alt="" className=" w-[90%] mx-auto h-96"/>
+                <h6 className="font-bold text-center text-base leading-[31px]">
+                این‌ بار هوش مصنوعی، تصاویری از کارخانه تولید عروس دریایی را افشا می‌کند!
+                </h6>
+                <p className="mt-7 text-gray-500 text-base font-medium leading-[26px] text-center">
+                اکنون هوش مصنوعی توانایی تصاویرسازی مخفی‌ترین تجارت‌های دنیا را دارد. تصاویر این شاتر واقعاً شبیه به تصاویر لورفته کارخانه تولید عروس دریایی هستند.
+                </p>
+            </div>
+        </SwiperSlide>
+        <SwiperSlide>
+        <div className="w-[98%]">
+                <img src="/img/rp3.png" alt="" className=" w-[90%] mx-auto h-96"/>
+                <h6 className="font-bold text-center text-base leading-[31px]">
+                هدفون ریزر Moray، با کیفیت صدای استثنائی برای گیمرها و استریمرها معرفی شد
+                </h6>
+                <p className="mt-7 text-gray-500 text-base font-medium leading-[26px] text-center">
+                ریزر هدفون جدیدی به‌نام Moray معرفی کرده که از طراحی موسوم‌به In-ear Monitor بهره می‌برد و به‌طور خاص استریمرها و گیمرها را هدف قرار داده است.
+                </p>
+            </div>
+        </SwiperSlide>
+      </Swiper>
         </div>
         </>
     )
