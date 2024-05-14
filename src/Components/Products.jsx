@@ -6,7 +6,7 @@ const Products = () => {
         <>
         <div className="hidden lg:flex w-[83%] mx-auto mt-9">
             <div className="w-[25%] ">
-                <img src="/img/sport.png" alt="" />
+                <img src="/img/a2.png" alt="" />
             </div>
             <div className="w-[25%]">
                 <img src="/img/lamp.png" alt="" />
