@@ -8,7 +8,7 @@ import Photo3 from './Photo3';
 export default function Brand() {
   return (
     <>
-    <div className='w-[83%] mx-auto mt-20 lg:mt-32 lg:border-t lg:border-r lg:border-b lg:rounded-2xl lg:border-blue-300 lg:border-solid'>
+    <div className='hidden lg:block w-[83%] mx-auto mt-20 lg:mt-32 lg:border-t lg:border-r lg:border-b lg:rounded-2xl lg:border-blue-300 lg:border-solid'>
 
             <h2 className='font-extrabold hidden lg:flex text-2xl leading-[38px] relative right-14 -top-24'>محبوبترین
              <br />بـــــــرند ها</h2>
@@ -17,7 +17,7 @@ export default function Brand() {
    
         <div className='items-center w-[82%] mx-auto h-52 gap-x-5'>
         <Swiper
-        slidesPerView={2}
+        slidesPerView={5}
         spaceBetween={30}
         centeredSlides={true}
         pagination={{

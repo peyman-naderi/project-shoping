@@ -89,7 +89,7 @@ const Journal = () => {
         </SwiperSlide>
         <SwiperSlide>
         <div className="w-[98%]">
-                <img src="/img/rp3.png" alt="" className=" w-[8%] mx-auto h-96"/>
+                <img src="/img/rp3.png" alt="" className=" w-[80%] mx-auto h-96"/>
                 <h6 className="font-bold text-center text-base leading-[31px]">
                 هدفون ریزر Moray، با کیفیت صدای استثنائی برای گیمرها و استریمرها معرفی شد
                 </h6>
