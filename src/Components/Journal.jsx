@@ -67,7 +67,7 @@ const Journal = () => {
       >
         <SwiperSlide>
         <div className="w-[98%]">
-                <img src="/img/rp1.png" alt="" className=" w-[90%] mx-auto h-96"/>
+                <img src="/img/rp1.png" alt="" className=" w-[80%] mx-auto h-96"/>
                 <h6 className="font-bold text-center text-base leading-[31px]">
                 رد مجیک 8S پرو، آیفون و گلکسی را <br /> به خاک‌و‌خون می‌کشد
                 </h6>
@@ -78,7 +78,7 @@ const Journal = () => {
         </SwiperSlide>
         <SwiperSlide>
         <div className="w-[98%]">
-                <img src="/img/rp2.png" alt="" className=" w-[90%] mx-auto h-96"/>
+                <img src="/img/rp2.png" alt="" className=" w-[80%] mx-auto h-96"/>
                 <h6 className="font-bold text-center text-base leading-[31px]">
                 این‌ بار هوش مصنوعی، تصاویری از کارخانه تولید عروس دریایی را افشا می‌کند!
                 </h6>
@@ -89,7 +89,7 @@ const Journal = () => {
         </SwiperSlide>
         <SwiperSlide>
         <div className="w-[98%]">
-                <img src="/img/rp3.png" alt="" className=" w-[90%] mx-auto h-96"/>
+                <img src="/img/rp3.png" alt="" className=" w-[8%] mx-auto h-96"/>
                 <h6 className="font-bold text-center text-base leading-[31px]">
                 هدفون ریزر Moray، با کیفیت صدای استثنائی برای گیمرها و استریمرها معرفی شد
                 </h6>

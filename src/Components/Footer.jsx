@@ -26,22 +26,35 @@ const Footer = () => {
                 </div>
 
                 {/*seaction -- 2 */}
-                <div className="flex mx-auto mt-10  gap-x-5 justify-between pb-10  border-b border-solid border-blue-900 ">
-                    <div className="flex gap-x-2 items-center">
+                <div className="flex mx-auto mt-10 gap-x-5  pb-10 justify-between  border-b border-solid border-blue-900 ">
+                    <div className="hidden gap-x-1 items-center lg:flex">
                         <img src="/img/kar.png" alt="" />
                         <h2 className="font-bold text-base items-center">ارسال سریع و آسان</h2>
                     </div>
-                    <div className="flex gap-x-2 items-center">
-                        <img src="/img/.png" alt="" />
+                    <div className="md:flex hidden gap-x-1 items-center">
+                        <img src="/img/tik.png" alt="" />
+                        <h2 className="font-bold text-base items-center">امکان پرداخت حضوری در محل</h2>
                     </div>
-                    <div className="flex gap-x-2 items-center">
-                        <img src="/img/.png" alt="" />
+                    <div className="md:flex hidden gap-x-1 items-center">
+                        <img src="/img/clock.png" alt="" />
+                        <h2 className="font-bold text-base items-center">پاسخگویی سریع </h2>
                     </div>
-                    <div className="flex gap-x-2 items-center">
-                        <img src="/img/.png" alt="" />
+                    <div className="flex gap-x-1 items-center">
+                        <img src="/img/kabra.png" alt="" />
+                        <h2 className="font-bold text-base items-center">خدمات پس از فروش</h2>
                     </div>
-                    <div className="flex gap-x-2 items-center">
-                        <img src="/img/.png" alt="" />
+                    <div className="flex gap-x-1 items-center">
+                        <img src="/img/tag.png" alt="" />
+                        <h2 className="font-bold text-base items-center">سه روز ضمانت  بازگشت کالا</h2>
+                    </div>
+                </div>
+
+                {/*seaction -- 3 */}
+                <div className="block lg:flex mx-auto mt-10  gap-y-10 w-full lg:gap-x-28 items-center  pb-10  border-b border-solid border-blue-900">
+                    <h2 className="text-center lg:text-start lg:text-lg text-base font-bold mb-8 lg:leading-[31px]">دانلود اپلیکیشن آرپی کالا</h2>
+                    <div className="md:flex items-center lg:gap-x-28">
+                        <img src="/img/maykt.png" alt="" className="w-[90%] mx-auto" />
+                        <img src="/img/bazzar.png" alt=""  className="w-[90%] mx-auto"/>
                     </div>
                 </div>
 
