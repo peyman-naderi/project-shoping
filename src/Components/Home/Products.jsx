@@ -1,5 +1,5 @@
 import React from "react"
-import SliderProducts from "./SliderProducts";
+
 
 const Products = () => {
     return(
@@ -15,7 +15,7 @@ const Products = () => {
                 <img src="/img/coler.png" alt="" />
             </div>
         </div>
-        <SliderProducts/>
+
         </>
     )
 }

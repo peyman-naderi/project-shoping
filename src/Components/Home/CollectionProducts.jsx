@@ -1,5 +1,4 @@
 import React from "react";
-import Photo from "./Photo";
 
 
 const CollectionProducts = () => {
@@ -12,7 +11,7 @@ const CollectionProducts = () => {
                 </svg>
                 <h1 className="font-bold text-xl leading-9">دسته بندی کالاها</h1>
             </div>
-            <div className="flex flex-wrap items-center justify-around mx-auto mt-12 lg:gap-x-14 gap-x-5">
+            <div className="flex flex-wrap items-center justify-between mx-auto mt-12 lg:gap-x-6 gap-x-5">
                 <div>
                     <img src="/img/khane.png" alt=""  className="w-32 h-32"/>
                     <p className="mt-14 font-bold text-gray-400">ساختمان و تاسیسات</p>
@@ -40,7 +39,7 @@ const CollectionProducts = () => {
             </div>
         </div>
 
-        <Photo/>
+
         </>
     )
 }

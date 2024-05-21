@@ -1,9 +1,15 @@
-import Services from "./Services";
+import Services from "../Home/Services";
 import React from "react";
+
 
 const Header = () => {
     return(
       <>
+
+<div className='w-full h-2 bg-blue-700'>
+    
+    </div>
+    
         <div className="flex justify-between items-center lg:gap-x- w-[82%] h-42  mx-auto mt-5">
             {/* search input */}
             <div className="flex items-center justify-center gap-x-5">
@@ -62,6 +68,7 @@ const Header = () => {
                </a>
             </div>
         </div>
+
         <Services/>
         </>
       )

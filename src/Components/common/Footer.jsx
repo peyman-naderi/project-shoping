@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <>
         <div className="border-t-4 border-solid border-blue-900 mt-20">
-            <div className="w-[83%]  mx-auto mt-10">
+            <div className="w-[83%] mx-auto mt-10">
                 {/*seaction -- 1 */}
                 <div className="lg:flex  mx-auto justify-between items-center pb-10  border-b border-solid border-blue-900 ">
                     <div className="md:flex   md:justify-between lg:gap-x-10 ">
@@ -50,7 +50,7 @@ const Footer = () => {
                 </div>
 
                 {/*seaction -- 3 */}
-                <div className="block lg:flex mx-auto mt-10  gap-y-10 w-full lg:gap-x-14 items-center  pb-10  border-b border-solid border-blue-900">
+                <div className="block lg:flex mx-auto mt-10  gap-y-10 w-full lg:gap-x-32 items-center  pb-10  border-b border-solid border-blue-900">
                     <h2 className="text-center lg:text-start lg:text-lg text-base font-bold mb-8 lg:leading-[31px]">دانلود اپلیکیشن آرپی کالا</h2>
                     <div className="md:flex items-center lg:gap-x-28">
                         <img src="/img/maykt.png" alt="" className="w-[90%] mx-auto" />
@@ -59,9 +59,9 @@ const Footer = () => {
                 </div>
 
                 {/*seactiont -- 4 */}
-                <div className="mx-auto mt-10 lg:flex grid grid-cols-2 pb-10 w-full lg:gap-x-12 xl:gap-x-8 gap-x-3items-center border-b border-solid border-blue-900">
+                <div className="mx-auto mt-10 lg:flex grid grid-cols-2 pb-10  lg:gap-x-4 xl:gap-x-8 gap-x-3 items-center border-b border-solid border-blue-900">
 
-                    <div className=" lg:w-[18%] mb-5">
+                    <div className=" lg:w-[18%]">
                         <h2 className="text-lg font-bold leading-[31px] w-[70px] mb-5">پشتیبانی</h2>
                         <p className="lg:w-[220px] w-[100px] text-base font-bold mb-5 ">در روز های کاری از ساعت 8 تا ساعت 20 
                          ،میزبان صدای گرمتان هستیم</p>
@@ -81,7 +81,7 @@ const Footer = () => {
                         </ol>
                     </div>
 
-                    <div className=" lg:w-[18%] xl:block hidden">
+                    <div className=" lg:w-[18%] xl:block hidden -mt-12">
                         <h2 className="text-lg  font-bold leading-[31px]  mb-3">ارتباط با مدیریت</h2>
                         <ol>
                             <li className="flex gap-x-1 ">
@@ -107,7 +107,7 @@ const Footer = () => {
                         </ol>
                     </div>
 
-                    <div className=" lg:w-[18%] mb-5">
+                    <div className=" lg:w-[18%] ">
                         <h2 className="text-lg font-bold leading-[31px]  mb-5">خدمات مشتریان</h2>
                         <ol>
                             <li className="w-[277px] text-base font-bold mb-3 ">پیگیری سفارش ها</li>

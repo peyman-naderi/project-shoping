@@ -4,7 +4,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
 
-import SliderAll from './SliderAll';
+
 
 const SliderProduct3 = () => {
     return(
@@ -379,7 +379,7 @@ className="mySwiper  ">
 
 
 
-<SliderAll/>
+
         </>
     )
 }

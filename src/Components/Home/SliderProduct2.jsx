@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
-import Photo2 from './Photo2';
+
 
 
 const SliderProduct2 = () => {
@@ -371,7 +371,7 @@ className="mySwiper  ">
 </div>
 </div>
 
-<Photo2 />
+
         </>
     )
 }

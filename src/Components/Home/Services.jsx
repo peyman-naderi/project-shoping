@@ -1,9 +1,9 @@
 import React from "react";
-import Slider from "./Slider";
+
 
 const Services = () => {
     return(
-        <>
+       <>
         <div className="flex flex-row gap-x-2 w-[86%] lg:w-full  mx-auto  mt-5 h-[61px]">
             <div className="lg:bg-blue-700 rounded-r-lg rounded-l-lg lg:rounded-l-3xl w-full bg-blue-700 lg:w-[1740px] ">
                 <div className="flex gap-x-10 lg:gap-x-4 text-sm xl:text-base items-center mt-5 justify-center lg:justify-start lg:mr-24 xl:mr-32">
@@ -60,7 +60,6 @@ const Services = () => {
             <div className=" lg:basis-80 lg:ml-3 lg:flex hidden  items-center justify-center text-xs lg:text-base font-semibold">در RpKala فروشنده شوید!</div>
             <div className="bg-blue-700 lg:basis-32 rounded-r-3xl"></div>
         </div>
-        <Slider />
         </>
     )
 }

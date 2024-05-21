@@ -1,6 +1,6 @@
 import React from "react"
 
-import SliderProduct2 from "./SliderProduct2";
+
 
 
 const Photo = () => {
@@ -19,7 +19,6 @@ const Photo = () => {
             <img src="/img/farm.png" alt="" />
         </div>
 
-        <SliderProduct2 />
         </>
     )
 }

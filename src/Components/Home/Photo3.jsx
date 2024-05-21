@@ -1,5 +1,5 @@
 import React from "react";
-import Journal from "./Journal";
+
 const Photo3 = () => {
     return(
         <>
@@ -22,7 +22,6 @@ const Photo3 = () => {
             <img src="/img/last.png" alt="" />
         </div>
 
-        <Journal />
         </>
 )}
 

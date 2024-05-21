@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-import Footer from './Footer';
+
 
 import { Keyboard, Pagination, Navigation } from 'swiper/modules';
 
@@ -50,7 +50,7 @@ const Journal = () => {
             </div>
         </div>
 
-        <div className='lg:hidden flex w-[95%] mx-auto'>
+        <div className='lg:hidden mt-5 lg:mt-0 flex w-[95%] mx-auto'>
 
       <Swiper
         slidesPerView={1}
@@ -100,8 +100,6 @@ const Journal = () => {
         </SwiperSlide>
       </Swiper>
         </div>
-
-        <Footer/>
         </>
     )
 }

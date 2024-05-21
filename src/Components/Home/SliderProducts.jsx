@@ -1,4 +1,4 @@
-import CollectionProducts from './CollectionProducts';
+;
 import React, { useRef, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -370,7 +370,7 @@ export default function SliderProducts() {
         </div>
       </div>
 
-      <CollectionProducts/>
+
     </>
   );
 }

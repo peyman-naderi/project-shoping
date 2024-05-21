@@ -1,15 +1,17 @@
 import './App.css';
 import './index.css'
-import Header from './Components/Header';
 import React from 'react';
+// import Home from './Components/Home';
+import Login from './Components/Login';
 
 function App() {
   return (
     <>
-    <div className='w-full h-2 bg-blue-700'>
-      
-    </div>
-    <Header/>
+
+
+    {/* <Home /> */}
+    <Login />
+
     </>
   );
 }
