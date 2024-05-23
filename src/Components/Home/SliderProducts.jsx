@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
+import { Link } from 'react-router-dom';
 export default function SliderProducts() {
   return (
     <>  
@@ -16,7 +17,9 @@ export default function SliderProducts() {
                     <div className='top- -right-14 relative'>
                         <img src="/img/imggg.png" alt="" />
                     </div>
+                    <Link to="/product1">
                     <button className='border text-red-600 font-semibold mt-44 border-solid rounded-lg border-red-600 p-1'>مشاهده همه</button>
+                    </Link>
             </div>
 
             <div className='w-[85%]'>
@@ -237,7 +240,9 @@ export default function SliderProducts() {
                 <p className='text-red-600 font-bold '>پیشنهاد شگفت انگیز</p>
             </div>
             <div>
+            <Link to="/product1">
             <button className='border text-red-600 font-semibold  border-solid rounded-lg border-red-600 '>مشاهده همه</button>
+            </Link>
             </div>
        </div>
 
