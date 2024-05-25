@@ -1,11 +1,13 @@
-;
-import React, { useRef, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
 import { Link } from 'react-router-dom';
-export default function SliderProducts() {
+import React from 'react';
+
+
+
+const SliderProducts = () => {
   return (
     <>  
         <div className=' hidden lg:flex w-[81%] border-t-2 pt-4 pb-4 border-b-2 border-r-2 rounded-2xl border-solid border-red-600  mx-auto mt-24'>
@@ -379,3 +381,4 @@ export default function SliderProducts() {
     </>
   );
 }
+export default  SliderProducts;

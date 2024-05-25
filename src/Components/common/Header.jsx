@@ -37,7 +37,6 @@ const Header = () => {
             </Link>
             <div className="lg:flex hidden gap-x-10">
                {/* UserName */}
-      
                <div className="flex items-center justify-center gap-x-2">
                <Link to="/Login" className="flex items-center">
                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7">

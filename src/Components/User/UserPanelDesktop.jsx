@@ -1,0 +1,83 @@
+import React from "react";
+
+const UserPanelDesktop = () => {
+    return (
+        <>
+        <div className="lg:flex hidden w-[98%] gap-x-9 justify-between items-center mt-20 h-full p-8 rounded-3xl border mx-auto border-blue-500">
+             <div className="lg:w-[30%]">
+                
+                <div className="flex gap-x-1 justify-between items-center border-b-2 border-x-gray-800 pb-7 ">
+                    <div className="flex gap-x-1 items-center">
+                        <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8.89999 6.5H16.1C19.5 6.5 19.84 8.09 20.07 10.03L20.97 17.53C21.26 19.99 20.5 22 17 22H8.00999C4.49999 22 3.73999 19.99 4.03999 17.53L4.93999 10.03C5.15999 8.09 5.49999 6.5 8.89999 6.5Z" stroke="#414141" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M8.5 8V4.5C8.5 3 9.5 2 11 2H14C15.5 2 16.5 3 16.5 4.5V8M20.91 17.03H8.5" stroke="#414141" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <p>کیف پول</p>
+                    </div>
+                    <span>۰ تومان</span>
+                </div>
+
+                <div className="flex gap-x-1 items-center mt-7 border-b-2 border-x-gray-800 pb-7">
+                    <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.31 2L5.69 5.63M15.69 2L19.31 5.63" stroke="#414141" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M2.5 7.8501C2.5 6.0001 3.49 5.8501 4.72 5.8501H20.28C21.51 5.8501 22.5 6.0001 22.5 7.8501C22.5 10.0001 21.51 9.8501 20.28 9.8501H4.72C3.49 9.8501 2.5 10.0001 2.5 7.8501Z" stroke="#414141" stroke-width="1.5"/>
+                        <path d="M10.26 14V17.55M14.86 14V17.55M4 10L5.41 18.64C5.73 20.58 6.5 22 9.36 22H15.39C18.5 22 18.96 20.64 19.32 18.76L21 10" stroke="#414141" stroke-width="1.5" stroke-linecap="round"/>
+                    </svg>
+                    <p>سفارش ها</p>
+                </div>
+
+                <div className="flex gap-x-1 items-center mt-7 border-b-2 border-x-gray-800 pb-7">
+                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M18.97 9.00006H2.97V17.0001C2.97 20.0001 3.97 21.0001 6.97 21.0001H14.97C17.97 21.0001 18.97 20.0001 18.97 17.0001V9.00006ZM20.5 6.00006V7.00006C20.5 8.10006 19.97 9.00006 18.5 9.00006H3.5C1.97 9.00006 1.5 8.10006 1.5 7.00006V6.00006C1.5 4.90006 1.97 4.00006 3.5 4.00006H18.5C19.97 4.00006 20.5 4.90006 20.5 6.00006ZM10.64 4.00006H5.12C4.95557 3.82172 4.8668 3.58651 4.8724 3.344C4.87799 3.10149 4.97752 2.87063 5.15 2.70006L6.57 1.28006C6.74972 1.10235 6.99226 1.00269 7.245 1.00269C7.49774 1.00269 7.74028 1.10235 7.92 1.28006L10.64 4.00006ZM16.87 4.00006H11.35L14.07 1.28006C14.2497 1.10235 14.4923 1.00269 14.745 1.00269C14.9977 1.00269 15.2403 1.10235 15.42 1.28006L16.84 2.70006C17.2 3.06006 17.21 3.63006 16.87 4.00006Z" stroke="#414141" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <p>کارت های هدیه</p>
+                </div>
+
+                <div className="flex gap-x-1 items-center mt-7 border-b-2 border-x-gray-800 pb-7">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 8V13M20.75 13.25C20.75 18.08 16.83 22 12 22C7.17 22 3.25 18.08 3.25 13.25C3.25 8.42 7.17 4.5 12 4.5C16.83 4.5 20.75 8.42 20.75 13.25Z" stroke="#414141" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M9 2H15" stroke="#414141" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <p>بازدید های اخیر</p>
+                </div>
+
+                <div className="flex gap-x-1 items-center mt-7 border-b-2 border-x-gray-800 pb-7">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M18.41 18.09L15.59 20.91M18.41 20.91L15.59 18.09M12 21.81C10.18 21.81 8.36999 21.35 6.98999 20.43C4.56999 18.81 4.56999 16.17 6.98999 14.56C9.73999 12.72 14.25 12.72 17 14.56M12.16 10.87C12.06 10.86 11.94 10.86 11.83 10.87C10.6822 10.831 9.59463 10.3468 8.79762 9.51995C8.0006 8.69307 7.55673 7.58844 7.55999 6.43999C7.55999 3.98999 9.53999 1.99999 12 1.99999C12.5824 1.98948 13.1612 2.0938 13.7033 2.30697C14.2454 2.52014 14.7402 2.838 15.1594 3.2424C15.5787 3.6468 15.9142 4.12982 16.1468 4.66388C16.3794 5.19794 16.5045 5.77258 16.515 6.35499C16.5255 6.9374 16.4212 7.51618 16.208 8.05828C15.9948 8.60038 15.677 9.09518 15.2726 9.51444C14.8682 9.9337 14.3852 10.2692 13.8511 10.5018C13.317 10.7344 12.7424 10.8595 12.16 10.87Z" stroke="#414141" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <p>حذف پروفایل</p>
+                </div>
+
+                <div className="flex  gap-x-2 items-center justify-center mt-7 border-b-2 border-x-gray-800 pb-3 mb-2">
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14.44 11.62L17 9.06L14.44 6.5M6.76001 9.06H16.93M8.76001 17C4.34001 17 0.76001 14 0.76001 9C0.76001 4 4.34001 1 8.76001 1" stroke="#FF4943" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <p className="text-red-600 font-bold">خروج از حساب کاربری</p>
+                </div>
+            </div>
+
+            <div className="flex text-center lg:gap-x-4 xl:gap-x-12 ">
+                <div className="border  border-gray-300 p-8 rounded-2xl lg:w-[180px] xl:w-[250px] text-center justify-center">
+                    <img src="/img/nar.png" alt="" className="pb-10 mx-auto"/>
+                    <p className="text-sm font-normal text-center text-gray-500">۰  سفارش</p>
+                    <span className="text-sm font-bold text-red-400 text-center">جاری</span>
+                </div>
+
+                <div className="border border-gray-300 p-8 rounded-2xl lg:w-[180px] xl:w-[250px]">
+                    <img src="/img/lis.png" alt="" className="pb-7 mx-auto"/>
+                    <p className="text-sm font-normal text-center text-gray-500">۰ سفارش </p>
+                    <span className="text-sm font-bold text-green-400 text-center ">تحویل داده شده</span>
+                </div>
+
+                <div className="border border-gray-300 p-8 rounded-2xl lg:w-[180px] xl:w-[250px] ">
+                    <img src="/img/mok.png" alt="" className="pb-8 mx-auto"/>
+                    <p className="text-sm font-normal text-center text-gray-500">۰  سفارش</p>
+                    <span className="text-sm font-bold text-blue-400 text-center ">مرجوع شده</span>
+                </div>
+             </div>
+        </div>
+        </>
+    )
+}
+
+export default UserPanelDesktop;
