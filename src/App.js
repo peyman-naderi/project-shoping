@@ -5,7 +5,9 @@ import React from 'react';
 // import Home from './Components/Home';
 // import Login from './Components/Login';
 // import ProductsSHegeftAngiz from './Components/Products';
-import UserPanel from './Components/User';
+// import UserPanel from './Components/User';
+import Carts from './Components/Carts';
+
 
 function App() {
   return (
@@ -16,8 +18,10 @@ function App() {
     <Route path="/product1" element={<ProductsSHegeftAngiz/>} />
     </Routes> */}
 
+    {/* <UserPanel /> */}
 
-    <UserPanel />
+
+    <Carts />
     </>
   );
 }
