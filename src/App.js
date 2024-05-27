@@ -6,8 +6,8 @@ import React from 'react';
 // import Login from './Components/Login';
 // import ProductsSHegeftAngiz from './Components/Products';
 // import UserPanel from './Components/User';
-import Carts from './Components/Carts';
-
+// import Carts from './Components/Carts';
+import Sellers from './Components/Sellers';
 
 function App() {
   return (
@@ -19,9 +19,9 @@ function App() {
     </Routes> */}
 
     {/* <UserPanel /> */}
+    {/* <Carts /> */}
 
-
-    <Carts />
+    <Sellers />
     </>
   );
 }
